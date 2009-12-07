@@ -20,7 +20,9 @@ public class XpressBotServlet extends AbstractRobotServlet {
 			Blip blip = wavelet.appendBlip();
 			TextView textView = blip.getDocument();
 			textView
-					.appendMarkup("Hello, I am your XpressBot, Now talk with friends using funny Expression.For More Information: http://www.voizle.com/xpressbot.vz");
+					.appendMarkup("Hello, I am your XpressBot, Now talk with friends using funny Expression." +
+							"For More Information: http://www.voizle.com/xpressbot.vz . " +
+							" To Suggest more Xpressions: http://u.voizle.com/ajsktbn");
 		}
 
 		for (Event e : bundle.getEvents()) {
